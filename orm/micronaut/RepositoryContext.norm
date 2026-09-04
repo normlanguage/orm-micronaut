@@ -1,0 +1,27 @@
+package orm.micronaut
+
+import jakarta.inject.Inject
+import micronaut.inject.context.annotation.Prototype
+import orm.Context
+import orm.RepositoryContext
+import orm.Store
+import std.core.Exception
+
+@Prototype()
+class MicronautRepositoryContext implements RepositoryContext {
+  @Context()
+  @Inject()
+  Store? current
+
+  MicronautRepositoryContext() {
+    this.current = null
+  }
+
+  public Store store() {
+    Store? active = current
+    if active != null {
+      return active
+    }
+    throw Exception(message: "persistence context is unavailable")
+  }
+}
