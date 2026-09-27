@@ -1,3 +1,5 @@
 # Micronaut ORM Integration
 
-`orm.micronaut@3` 为 Micronaut 注册 Hibernate/JPA Provider，并向 `orm.Repository` 提供事务感知的 `RepositoryContext`。事务运行时由 `orm.micronaut.tx` 提供。
+[English](README.md) | [简体中文](README.zh-CN.md)
+
+`orm.micronaut@3` registers the Hibernate/JPA provider with Micronaut and supplies a transaction-aware `RepositoryContext` to `orm.Repository`. The transaction runtime is provided by `orm.micronaut.tx`.
