@@ -2,4 +2,6 @@
 
 [English](README.md) | [简体中文](README.zh-CN.md)
 
-`orm.micronaut@3` registers the Hibernate/JPA provider with Micronaut and supplies a transaction-aware `RepositoryContext` to `orm.Repository`. The transaction runtime is provided by `orm.micronaut.tx`.
+`orm.micronaut@4` registers the Hibernate/JPA provider with Micronaut and supplies a transaction-aware `RepositoryContext` to `orm.Repository`. The transaction runtime is provided by `orm.micronaut.tx`.
+
+[Sample ownership](samples/README.md).

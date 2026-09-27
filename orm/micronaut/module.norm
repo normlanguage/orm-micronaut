@@ -1,13 +1,13 @@
 Module module() {
   return module(
     name: "orm.micronaut",
-    version: 3,
+    version: 4,
     dependencies: [
-      exportedDependency(repository: "github", name: "orm", version: 2),
-      exportedDependency(repository: "github", name: "orm.hibernate", version: 3),
-      dependency(repository: "github", name: "jakarta.inject", version: 1),
-      dependency(repository: "github", name: "micronaut.inject", version: 1),
-      dependency(repository: "github", name: "micronaut.jdbc.hikari", version: 1)
+      exportedDependency(repository: "github", name: "orm", version: 3),
+      exportedDependency(repository: "github", name: "orm.hibernate", version: 4),
+      dependency(repository: "github", name: "jakarta.inject", version: 3),
+      dependency(repository: "github", name: "micronaut.inject", version: 3),
+      dependency(repository: "github", name: "micronaut.jdbc.hikari", version: 2)
     ],
     binding: jarBinding(
       target: mavenJar(
