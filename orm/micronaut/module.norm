@@ -1,14 +1,14 @@
 Module module() {
   return module(
     name: "orm.micronaut",
-    version: 8,
+    version: 9,
     exports: ["MicronautRepositoryContext"],
     dependencies: [
-      exportedDependency(repository: "github", name: "orm", version: 4),
-      exportedDependency(repository: "github", name: "orm.hibernate", version: 5),
+      exportedDependency(repository: "github", name: "orm", version: 5),
+      exportedDependency(repository: "github", name: "orm.hibernate", version: 6),
       dependency(repository: "github", name: "jakarta.inject", version: 7),
       dependency(repository: "github", name: "micronaut.inject", version: 7),
-      dependency(repository: "github", name: "micronaut.jdbc.hikari", version: 3)
+      dependency(repository: "github", name: "micronaut.jdbc.hikari", version: 4)
     ],
     binding: jarBinding(
       target: mavenJar(
@@ -20,6 +20,7 @@ Module module() {
     )
   )
 }
+
 
 
 
