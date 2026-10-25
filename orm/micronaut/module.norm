@@ -1,7 +1,7 @@
 Module module() {
   return module(
     name: "orm.micronaut",
-    version: 10,
+    version: 11,
     exports: ["MicronautRepositoryContext"],
     dependencies: [
       exportedDependency(repository: "github", name: "orm", version: 5),
@@ -20,6 +20,7 @@ Module module() {
     )
   )
 }
+
 
 
 
