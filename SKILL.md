@@ -1,4 +1,36 @@
 # orm.micronaut Skill
 
-Use this skill to work with Norm module `orm.micronaut` version 6. Use only declarations listed below.
+Use this skill to work with Norm module `orm.micronaut` version 7. Use only declarations listed below.
+
+## `orm.micronaut`
+
+Source: `MicronautRepositoryContext.norm`
+
+### `MicronautRepositoryContext`
+
+```norm
+class MicronautRepositoryContext implements RepositoryContext
+```
+
+#### `current`
+
+```norm
+EntityManager? current
+```
+
+Type: `EntityManager?`
+
+#### `MicronautRepositoryContext`
+
+```norm
+MicronautRepositoryContext()
+```
+
+#### `store`
+
+```norm
+EntityManager store()
+```
+
+Returns: `EntityManager`
 
