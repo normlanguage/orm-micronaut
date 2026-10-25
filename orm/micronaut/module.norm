@@ -5,8 +5,8 @@ Module module() {
     dependencies: [
       exportedDependency(repository: "github", name: "orm", version: 3),
       exportedDependency(repository: "github", name: "orm.hibernate", version: 4),
-      dependency(repository: "github", name: "jakarta.inject", version: 4),
-      dependency(repository: "github", name: "micronaut.inject", version: 4),
+      dependency(repository: "github", name: "jakarta.inject", version: 5),
+      dependency(repository: "github", name: "micronaut.inject", version: 5),
       dependency(repository: "github", name: "micronaut.jdbc.hikari", version: 2)
     ],
     binding: jarBinding(
