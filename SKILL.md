@@ -1,6 +1,6 @@
 # orm.micronaut Skill
 
-Use this skill to work with Norm module `orm.micronaut` version 14. Use only declarations listed below.
+Use this skill to work with Norm module `orm.micronaut` version 15. Use only declarations listed below.
 
 ## `orm.micronaut`
 
